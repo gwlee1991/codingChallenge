@@ -1,0 +1,39 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#grid {
+  height: 600px;
+  width: 600px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 198px;
+  height: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+}
+
+.player1 {
+  background-color: green;
+}
+
+.player2 {
+  background-color: red;
+}
